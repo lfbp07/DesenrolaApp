@@ -7,11 +7,13 @@
 
 import UIKit
 
+var controlVar = false
 class SecViewController: UIViewController {
 
     @IBOutlet var firstButton: UIButton!
     @IBOutlet var secondButton: UIButton!
     @IBOutlet var thirdButton: UIButton!
+    @IBOutlet var lockImage: [UIImageView]!
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Second View Controller")
@@ -23,7 +25,20 @@ class SecViewController: UIViewController {
         
         thirdButton.layer.cornerRadius = 0.5 * thirdButton.bounds.size.width
             thirdButton.clipsToBounds = true
+        
         // Do any additional setup after loading the view.
+        
+        if controlVar{
+            unlockButton()
+        }
+    }
+    
+    func unlockButton(){
+        
+        secondButton.backgroundColor = firstButton.backgroundColor
+        
+        lockImage.first?.isHidden = true
+        
     }
 
 

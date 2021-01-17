@@ -30,7 +30,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="Group 21"/>
                                                         <connections>
-                                                            <segue destination="KPx-7g-GpB" kind="presentation" modalPresentationStyle="fullScreen" id="jnK-5i-OuX"/>
+                                                            <segue destination="KPx-7g-GpB" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="jnK-5i-OuX"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -69,7 +69,7 @@
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <state key="normal" image="Frame 3"/>
                                                         <connections>
-                                                            <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" id="rS1-JS-MxY"/>
+                                                            <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="rS1-JS-MxY"/>
                                                         </connections>
                                                     </button>
                                                 </subviews>
@@ -182,7 +182,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="Frame 4"/>
                                 <connections>
-                                    <segue destination="ABK-53-phU" kind="presentation" modalPresentationStyle="fullScreen" id="X29-wI-D3y"/>
+                                    <segue destination="ABK-53-phU" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="X29-wI-D3y"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Marisa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="prV-7J-Bji">
@@ -192,10 +192,48 @@
                                 <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conquistas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NA0-40-nNs">
-                                <rect key="frame" x="20" y="295" width="114" height="27"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Conquistas:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NA0-40-nNs">
+                                <rect key="frame" x="20" y="295" width="120" height="27"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="22"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 29" translatesAutoresizingMaskIntoConstraints="NO" id="cMX-QU-VDN">
+                                <rect key="frame" x="53" y="362" width="127" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 29" translatesAutoresizingMaskIntoConstraints="NO" id="EcH-Vs-Oza">
+                                <rect key="frame" x="53" y="525" width="127" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 29" translatesAutoresizingMaskIntoConstraints="NO" id="sir-Ah-U1n">
+                                <rect key="frame" x="235" y="525" width="127" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 29" translatesAutoresizingMaskIntoConstraints="NO" id="4tI-WT-7tY">
+                                <rect key="frame" x="235" y="362" width="127" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 22" translatesAutoresizingMaskIntoConstraints="NO" id="obh-fL-Dau">
+                                <rect key="frame" x="82" y="400" width="69" height="69"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Frame 16" translatesAutoresizingMaskIntoConstraints="NO" id="GIa-9t-Wlb">
+                                <rect key="frame" x="249" y="385" width="99" height="111"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Inteligência Emocional" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y1T-wt-Edm">
+                                <rect key="frame" x="270" y="359" width="57" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colaboração" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HBg-UJ-iQ0">
+                                <rect key="frame" x="73" y="372" width="87" height="18"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -266,9 +304,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cw-gK-kym">
                                 <rect key="frame" x="20" y="473" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.84313725490196079" green="0.5607843137254902" blue="0.55294117647058827" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.94117647058823528" green="0.70980392156862748" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
-                                    <segue destination="4dG-va-bJh" kind="presentation" modalPresentationStyle="fullScreen" id="VVe-mq-Oam"/>
+                                    <segue destination="4dG-va-bJh" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="VVe-mq-Oam"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Love Sandwitch" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EVE-Ip-Ful">
@@ -313,16 +351,17 @@
                         <outlet property="firstButton" destination="0Cw-gK-kym" id="48t-My-dLL"/>
                         <outlet property="secondButton" destination="xKw-v0-9nV" id="dXt-CB-njF"/>
                         <outlet property="thirdButton" destination="3De-wp-sYg" id="Ll8-Mg-S05"/>
+                        <outletCollection property="lockImage" destination="mzw-GX-ZNn" collectionClass="NSMutableArray" id="8zO-ni-u6h"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="agk-eh-aeb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="876.81159420289862" y="92.410714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="RpV-5B-vEn">
             <objects>
-                <viewController id="4dG-va-bJh" sceneMemberID="viewController">
+                <viewController id="4dG-va-bJh" customClass="ThirdViewController" customModule="DesenrolaApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Y77-1l-RL3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -345,6 +384,64 @@
                                 <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Vamos construir bons feedbacks!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YmJ-gR-MjA">
+                                <rect key="frame" x="80" y="171" width="254" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Jz-hd-Aob">
+                                <rect key="frame" x="33" y="297" width="313" height="155"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Ao dar um feedback a um colega de trabalho, é importante ser honesto e falar sua opinião sincera. Para isso, é interessante que se tenha cuidado com o modo que as criíticas serão ditas, a fim de que seja mantida uma boa convivência.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Então, que tal aprender uma maneira de balancear comentários positivos e negativos?" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z82-2J-TxO">
+                                <rect key="frame" x="33" y="431" width="313" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Existe uma técnica chamada de “Love Sandwich” ou “Sanduíche de Amor”, que consiste em dividir o feedback nas seguintes etapas:" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vk8-hu-rP2">
+                                <rect key="frame" x="33" y="511" width="313" height="121"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1 -Comece com comentários positivos; " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8o5-6J-UbP">
+                                <rect key="frame" x="51" y="625" width="313" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="2 - Em seguida, faça sua observações. Foque em atitudes que poderiam ser tomadas, não criticando a pessoa diretamente;" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vSZ-dv-y3a">
+                                <rect key="frame" x="51" y="672" width="313" height="85"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 - Finalize encorajando seu colega de trabalho," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-7l-MrM">
+                                <rect key="frame" x="51" y="765" width="313" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="acd-hW-jQf">
+                                <rect key="frame" x="20" y="44" width="68" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="Frame 4"/>
+                                <connections>
+                                    <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="PI5-Bo-D5f"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="tTe-cF-M9T"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -354,18 +451,40 @@
             </objects>
             <point key="canvasLocation" x="1734.7826086956522" y="92.410714285714278"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JGP-GL-1Vf">
+            <objects>
+                <viewController id="Yik-E0-4Zf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="loe-ec-n2O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="fHs-Nm-4Ef"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DoK-VU-eUJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1735" y="799"/>
+        </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="VVe-mq-Oam"/>
+        <segue reference="PI5-Bo-D5f"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Finances" width="796" height="1320"/>
+        <image name="Frame 16" width="424" height="424"/>
         <image name="Frame 3" width="272" height="176"/>
         <image name="Frame 4" width="224" height="144"/>
         <image name="Group" width="44" height="60"/>
         <image name="Group 19-3" width="1028" height="1028"/>
         <image name="Group 21" width="308" height="308"/>
+        <image name="Group 22" width="340" height="329"/>
         <image name="No Comments" width="1376" height="1376"/>
         <image name="Rectangle" width="322" height="211"/>
         <image name="Rectangle 18" width="1500" height="1208"/>
         <image name="Rectangle 28" width="596" height="680"/>
+        <image name="Rectangle 29" width="484" height="568"/>
         <image name="Vector 1-2" width="3" height="15"/>
         <image name="ilustra colaboração-2" width="660" height="1113"/>
         <image name="ilustra colaboração-3" width="588" height="1113"/>

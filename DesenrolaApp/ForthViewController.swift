@@ -31,6 +31,10 @@ class ForthViewController: UIViewController {
         
         count  = (count + 1) % msgArray.count
         
+        if count + 1 == msgArray.count{
+            secondControlVar = true
+        }
+        
     }
     
 }

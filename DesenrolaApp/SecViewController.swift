@@ -8,11 +8,13 @@
 import UIKit
 
 var controlVar = false
+var secondControlVar = false
 class SecViewController: UIViewController {
 
     @IBOutlet var firstButton: UIButton!
     @IBOutlet var secondButton: UIButton!
     @IBOutlet var thirdButton: UIButton!
+    @IBOutlet var finaLockImage: UIImageView!
     @IBOutlet var lockImage: [UIImageView]!
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +34,10 @@ class SecViewController: UIViewController {
         if controlVar{
             unlockButton()
         }
+        
+        if secondControlVar{
+            unlockFinalButton()
+        }
     }
     
     func unlockButton(){
@@ -41,6 +47,16 @@ class SecViewController: UIViewController {
         secondButton.isUserInteractionEnabled = true
         
         lockImage.first?.isHidden = true
+        
+    }
+    
+    func unlockFinalButton(){
+        
+        thirdButton.backgroundColor = firstButton.backgroundColor
+        
+        thirdButton.isUserInteractionEnabled = true
+        
+        finaLockImage.isHidden = true
         
     }
 

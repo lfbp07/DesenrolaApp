@@ -474,7 +474,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 - Finalize encorajando seu colega de trabalho," textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-7l-MrM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 - Finalize encorajando seu colega de trabalho." textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9p-7l-MrM">
                                 <rect key="frame" x="51" y="765" width="313" height="68"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -487,6 +487,17 @@
                                 <state key="normal" image="Frame 4"/>
                                 <connections>
                                     <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="PI5-Bo-D5f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9G9-bn-DcP">
+                                <rect key="frame" x="168" y="832" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.29411764705882354" blue="0.24705882352941178" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Avançar">
+                                    <color key="titleColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" id="Ync-Nr-I7e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -600,7 +611,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="rS1-JS-MxY"/>
+        <segue reference="Ync-Nr-I7e"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Finances" width="796" height="1320"/>

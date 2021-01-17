@@ -23,6 +23,7 @@ class SecViewController: UIViewController {
         secondButton.layer.cornerRadius = 0.5 * secondButton.bounds.size.width
             secondButton.clipsToBounds = true
         
+        
         thirdButton.layer.cornerRadius = 0.5 * thirdButton.bounds.size.width
             thirdButton.clipsToBounds = true
         
@@ -36,6 +37,8 @@ class SecViewController: UIViewController {
     func unlockButton(){
         
         secondButton.backgroundColor = firstButton.backgroundColor
+        
+        secondButton.isUserInteractionEnabled = true
         
         lockImage.first?.isHidden = true
         

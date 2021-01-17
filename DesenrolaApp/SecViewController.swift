@@ -9,6 +9,7 @@ import UIKit
 
 var controlVar = false
 var secondControlVar = false
+var progressImageName = "Group 45-3"
 class SecViewController: UIViewController {
 
     @IBOutlet var firstButton: UIButton!
@@ -16,6 +17,7 @@ class SecViewController: UIViewController {
     @IBOutlet var thirdButton: UIButton!
     @IBOutlet var finaLockImage: UIImageView!
     @IBOutlet var lockImage: [UIImageView]!
+    @IBOutlet var progressImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
         print("Second View Controller")
@@ -28,6 +30,8 @@ class SecViewController: UIViewController {
         
         thirdButton.layer.cornerRadius = 0.5 * thirdButton.bounds.size.width
             thirdButton.clipsToBounds = true
+        
+        progressImage.image = UIImage(named: progressImageName)
         
         // Do any additional setup after loading the view.
         

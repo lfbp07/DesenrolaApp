@@ -254,6 +254,17 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 44" translatesAutoresizingMaskIntoConstraints="NO" id="XWp-sz-QmN">
+                                <rect key="frame" x="33" y="640" width="65" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Feedbacks" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7So-gg-z6o">
+                                <rect key="frame" x="102" y="645" width="83" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="gH3-dd-Iki"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -362,6 +373,10 @@
                                 <rect key="frame" x="28" y="620" width="15" height="14"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 45-2" translatesAutoresizingMaskIntoConstraints="NO" id="OSS-PV-EVY">
+                                <rect key="frame" x="246" y="495" width="158" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bc5-71-cKp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -370,6 +385,7 @@
                     <connections>
                         <outlet property="finaLockImage" destination="Vwg-AR-nWq" id="j7B-u1-s31"/>
                         <outlet property="firstButton" destination="0Cw-gK-kym" id="48t-My-dLL"/>
+                        <outlet property="progressImage" destination="OSS-PV-EVY" id="f2C-Zj-KS5"/>
                         <outlet property="secondButton" destination="xKw-v0-9nV" id="dXt-CB-njF"/>
                         <outlet property="thirdButton" destination="3De-wp-sYg" id="Ll8-Mg-S05"/>
                         <outletCollection property="lockImage" destination="mzw-GX-ZNn" collectionClass="NSMutableArray" id="8zO-ni-u6h"/>
@@ -496,7 +512,7 @@
                                         <rect key="frame" x="158" y="208" width="248" height="223"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <textField opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escreva aqui..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KZ7-Of-n0X">
+                                    <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Escreva aqui..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KZ7-Of-n0X">
                                         <rect key="frame" x="30" y="574" width="354" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -588,6 +604,8 @@
         <image name="Group 37" width="852" height="192"/>
         <image name="Group 38" width="916" height="800"/>
         <image name="Group 39" width="852" height="244"/>
+        <image name="Group 44" width="200" height="248"/>
+        <image name="Group 45-2" width="432" height="432"/>
         <image name="Mask Group" width="332" height="332"/>
         <image name="No Comments" width="1376" height="1376"/>
         <image name="Rectangle" width="322" height="211"/>

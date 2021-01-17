@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ForthViewController: UIViewController {
+class ForthViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet var secondMsg: UIImageView!
     @IBOutlet var thirdMsg: UIImageView!
@@ -33,6 +33,8 @@ class ForthViewController: UIViewController {
         
         if count + 1 == msgArray.count{
             secondControlVar = true
+            
+            progressImageName = "Group 45-2"
         }
         
     }

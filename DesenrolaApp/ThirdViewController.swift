@@ -12,6 +12,7 @@ class ThirdViewController: UIViewController {
         print("Third View Controller")
         super.viewDidLoad()
         controlVar = true
+        progressImageName = "Group 45"
         // Do any additional setup after loading the view.
     }
 

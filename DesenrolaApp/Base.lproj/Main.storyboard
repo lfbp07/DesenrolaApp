@@ -301,17 +301,10 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="O trabalho colaborativo é uma ótima forma de resolver problemas complexos" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aqb-vN-ZY9">
-                                <rect key="frame" x="51" y="86" width="231" height="75"/>
+                                <rect key="frame" x="28" y="123" width="231" height="75"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" red="0.92156862750000001" green="0.92941176469999998" blue="0.90196078430000004" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colaboração" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOw-Dg-x20">
-                                <rect key="frame" x="51" y="58" width="117" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Vector 1-2" translatesAutoresizingMaskIntoConstraints="NO" id="51R-wl-7bs">
@@ -387,6 +380,21 @@
                                 <rect key="frame" x="246" y="495" width="158" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RzP-EW-Gz1">
+                                <rect key="frame" x="20" y="44" width="68" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="Frame 4"/>
+                                <connections>
+                                    <segue destination="ABK-53-phU" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="MY8-DU-1JV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Colaboração" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WOw-Dg-x20">
+                                <rect key="frame" x="39" y="96" width="117" height="26"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.76862745098039209" green="0.76862745098039209" blue="0.76862745098039209" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bc5-71-cKp"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -497,7 +505,7 @@
                                     <color key="titleColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" id="Ync-Nr-I7e"/>
+                                    <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Ync-Nr-I7e"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -560,6 +568,10 @@
                                 </subviews>
                                 <color key="backgroundColor" red="0.92156862745098034" green="0.92941176470588238" blue="0.90196078431372551" alpha="1" colorSpace="calibratedRGB"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 18" translatesAutoresizingMaskIntoConstraints="NO" id="Fy1-jc-Wgv">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Desafio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uve-NZ-O3n">
                                 <rect key="frame" x="169" y="58" width="70" height="26"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -589,10 +601,6 @@
                                     <segue destination="vf9-Iu-8nb" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="Ghl-sc-iB5"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Rectangle 18" translatesAutoresizingMaskIntoConstraints="NO" id="Fy1-jc-Wgv">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="247"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="fHs-Nm-4Ef"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -611,7 +619,9 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="VVe-mq-Oam"/>
         <segue reference="Ync-Nr-I7e"/>
+        <segue reference="MY8-DU-1JV"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Finances" width="796" height="1320"/>
